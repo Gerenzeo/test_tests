@@ -1,7 +1,7 @@
 name: Run autotests
 
 on:
-  workflow_dspatch:
+  workflow_dispatch:
     inputs:
       deployment_target:
         descrption: select tests to run
