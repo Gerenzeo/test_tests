@@ -1,0 +1,12 @@
+name: Run autotests
+
+on:
+  workflow_dspatch:
+    inputs:
+      deployment_target:
+        descrption: select tests to run
+        required: true
+        type: choice
+        default: all
+        options:
+          - all
